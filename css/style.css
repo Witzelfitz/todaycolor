@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* braucht es für die min-height des Containers */ }
+
+/*header{
+	height: 10%;
+}*/
+#firstLine {
+  height: 50%; }
+
+#secondLine {
+  height: 50%; }
+
+.timeDate {
+  color: white;
+  font-size: x-large;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.timeDateComplementary {
+  color: black;
+  font-size: x-large;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto; }

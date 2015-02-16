@@ -1,0 +1,35 @@
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>TodayColor</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Colors.js/1.2.4/colors.min.js"></script>
+  <script src="js/function.js"></script>
+</head>
+<body>
+	<!--<header>
+		<h1>Tag+Stunde / Monat+Minute / Jahr+Sekunde = Color </h1>
+	</header>-->
+		<div class="row">
+			<div id="firstLine" class="col-xs-12 col-md-12 col-lg-12">
+				<div class="timeDate"></div>
+			</div>		
+		</div>
+		
+		<div class="row">
+			<div id="secondLine" class="col-xs-12 col-md-12 col-lg-12">
+				<div class="timeDateComplementary"></div>
+			</div>		
+		</div>
+		
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//setColor();
+				var interval = setInterval(function(){ setColor() }, 1000);
+			});
+		</script>
+</body>
+</html>
